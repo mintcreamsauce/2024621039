@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>이주형 포트폴리오</title>
+    <meta name="description" content="재능대학교 졸업 예정 개발자 이주형 포트폴리오." />
+
+    <!-- 세리프 폰트 (영문), 한글 명조 계열 폰트 매칭 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <main class="layout">
+        <aside class="sidebar">
+          <header class="sidebar-header">
+            <div class="identity">
+              <div class="label">Portfolio of</div>
+              <h1 class="name">이주형</h1>
+              <p class="role">재능대학교 컴퓨터 소프트웨어 학과 졸업 예정</p>
+            </div>
+
+            <nav class="nav">
+              <a href="#intro" class="nav-item">Overview</a>
+              <a href="#featured-projects" class="nav-item">Featured work</a>
+              <a href="#all-projects" class="nav-item">All projects</a>
+              <a href="#about" class="nav-item">About</a>
+              <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+          </header>
+
+          <footer class="sidebar-footer">
+            <div class="meta">
+              <div class="meta-item">
+                <span class="meta-label">Base</span>
+                <span class="meta-value">Seoul, KR</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Status</span>
+                <span class="meta-value">Open to opportunities</span>
+              </div>
+            </div>
+
+            <div class="links">
+              <a href="mailto:lee05sunny@naver.com" class="link">Email</a>
+              <a href="https://github.com/mintcreamsauce" class="link" target="_blank">GitHub</a>
+            </div>
+          </footer>
+        </aside>
+
+        <section class="content">
+          <section id="intro" class="section section-intro">
+            <p class="eyebrow">Portfolio · 2025</p>
+            <h2 class="headline">
+              항상 더 나은 미래를 위해 노력합니다
+            </h2>
+            <p class="lede">
+              재능대학교에서 컴퓨터소프트웨어학과를 전공하고 있는 이주형입니다.<br/>
+              문제를 정의하고, 최선의 해결책을 찾아 성장하는 개발자입니다.
+            </p>
+          </section>
+
+          <section id="featured-projects" class="section">
+            <header class="section-header">
+              <h3 class="section-title">Featured projects</h3>
+              <p class="section-subtitle">졸업 전시 및 대표 작업들</p>
+            </header>
+
+            <div class="projects-grid projects-grid--capstone">
+              <!-- 캡스톤 프로젝트 (졸업과제) - 메인 -->
+              <article class="project-card is-featured is-capstone">
+                <div class="project-meta">
+                  <span class="project-year">2025</span>
+                  <span class="project-tag">🎓 Capstone · 졸업과제</span>
+                </div>
+                <h4 class="project-title">Foreign Eyes</h4>
+                <p class="project-description">
+                  더 많은 양질의 해외 정보를 얻기 위한 프로젝트.<br/>
+                  <strong>3개월</strong> 개발 · 팀 내 초기 개발 페이지 및 발표자료 완성, 배포 피드백 담당
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">TypeScript</span>
+                  <span class="tech-badge">React Flow</span>
+                  <span class="tech-badge">React Query</span>
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">Flask</span>
+                  <span class="tech-badge">Neo4j</span>
+                </div>
+                <div class="project-challenge">
+                  <span class="challenge-label">💡 어려웠던 점</span>
+                  <p>배우지 않은 기술을 자체적으로 학습하며 적용하는 것에 어려움이 있었습니다.</p>
+                </div>
+                <div class="project-footer">
+                  <span class="project-role">Role — 초기 개발 · 발표 · 배포</span>
+                  <a href="http://34.22.98.38/" class="project-link" target="_blank" rel="noopener noreferrer">View Capstone Site →</a>
+                </div>
+              </article>
+
+              <!-- 미니미인포 프로젝트 -->
+              <article class="project-card">
+                <div class="project-meta">
+                  <span class="project-year">2025</span>
+                  <span class="project-tag">Personal Project</span>
+                </div>
+                <h4 class="project-title">Minimal.info</h4>
+                <p class="project-description">
+                  AI API를 활용한 1인 개발 프로젝트.<br/>
+                  <strong>1개월</strong> 개발 · 기획부터 배포까지 전 과정 담당
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">Python</span>
+                  <span class="tech-badge">Flask</span>
+                  <span class="tech-badge">AI API</span>
+                </div>
+                <div class="project-challenge">
+                  <span class="challenge-label">💡 어려웠던 점</span>
+                  <p>AI API를 사용하여 서비스를 만드는 과정에서 많은 시행착오가 있었습니다.</p>
+                </div>
+                <div class="project-footer">
+                  <span class="project-role">Role — 1인 풀스택 개발</span>
+                  <a href="https://minimal.info" class="project-link" target="_blank">View Project →</a>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="all-projects" class="section">
+            <header class="section-header">
+              <h3 class="section-title">All projects</h3>
+              <p class="section-subtitle">후에 계속 추가할 수 있는 목록</p>
+            </header>
+
+            <div class="project-list">
+              <article class="project-row">
+                <div class="project-row-main">
+                  <h4 class="project-row-title">이 포트폴리오 사이트</h4>
+                  <p class="project-row-description">
+                    HTML, CSS, JavaScript로 직접 제작한 포트폴리오 웹사이트
+                  </p>
+                </div>
+                <div class="project-row-meta">
+                  <span class="project-row-year">2025</span>
+                  <span class="project-row-type">Web</span>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="about" class="section section-about">
+            <header class="section-header">
+              <h3 class="section-title">About</h3>
+              <p class="section-subtitle">배경과 관심사</p>
+            </header>
+
+            <div class="about-grid">
+              <div class="about-text">
+                <p>
+                  재능대학교에서 컴퓨터 소프트웨어 학과를 졸업 예정이며,
+                  다양한 프로젝트를 통해 실력을 쌓아왔습니다.
+                </p>
+                <p>
+                  <strong>문제 해결 방식:</strong> 여러 난관이 있을 때 최대한의 이득과 사정을 고려하여 최선의 해결책을 찾습니다.
+                </p>
+              </div>
+
+              <div class="about-meta">
+                <h4 class="about-heading">Education</h4>
+                <ul class="about-list">
+                  <li>
+                    <span class="about-label">재능대학교</span>
+                    <span class="about-note">컴퓨터 소프트웨어 학과 졸업 예정</span>
+                  </li>
+                </ul>
+
+                <h4 class="about-heading">Tech Stack</h4>
+                <div class="tech-stack">
+                  <div class="tech-category">
+                    <span class="tech-category-label">Frontend</span>
+                    <div class="tech-badges">
+                      <span class="tech-badge">React</span>
+                      <span class="tech-badge">TypeScript</span>
+                      <span class="tech-badge">JavaScript</span>
+                      <span class="tech-badge">React Flow</span>
+                      <span class="tech-badge">React Query</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <span class="tech-category-label">Backend</span>
+                    <div class="tech-badges">
+                      <span class="tech-badge">Python</span>
+                      <span class="tech-badge">Flask</span>
+                    </div>
+                  </div>
+                  <div class="tech-category">
+                    <span class="tech-category-label">Database</span>
+                    <div class="tech-badges">
+                      <span class="tech-badge">MySQL</span>
+                      <span class="tech-badge">Neo4j</span>
+                    </div>
+                  </div>
+                </div>
+
+                <h4 class="about-heading">Focus</h4>
+                <ul class="about-list">
+                  <li>웹/앱 개발</li>
+                  <li>UI/UX 디자인</li>
+                  <li>풀스택 개발</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section id="contact" class="section section-contact">
+            <header class="section-header">
+              <h3 class="section-title">Contact</h3>
+              <p class="section-subtitle">협업 및 문의</p>
+            </header>
+            <p class="contact-text">
+              작업 문의 연락 등은 아래 메일로 편하게 연락 주세요.
+            </p>
+            <a href="mailto:youremail@example.com" class="contact-email">lee05sunny@naver.com</a>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
